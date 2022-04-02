@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel=stylesheet type="text/css" href="style_css/style.css"/>
+		
+		<title>Games</title>
+	</head>
+	<body>
+		<h1>Gerenciamento de Games</h1>
+		
+		<table>
+			<tr>
+		
+				<td>Nome:</td>
+				<td><input type="text" id="txtNome"></td>
+			</tr>
+			<tr>
+				<td>URL:</td>
+				<td><input type="text" id="txtURL"></td>
+			</tr>
+			<tr>
+				<td>URLVideo:</td>
+				<td><input type="text" id="txtURLVideo"></td>			
+			</tr>
+			<tr>
+				<td>Descricao:</td>
+				<td><input type="text" id="txtDescricao"></td>
+			</tr>
+			<tr>
+				<td>Categoria:</td>
+				<td><input type="text" id="txtCategoria"></td>			
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<input type="button" value="Novo" onclick="novoGame()" id="btnNovo">
+					<input type="button" value="Salvar" onclick="salvarGame()" id="btnSalvar">
+					<input type="button" value="Apagar" onclick="apagarGame()" id="btnApagar">
+					<input type="button" value="Cancelar" onclick="cancelar()" id="btnCancelar">
+				</td>
+			</tr>
+			
+		</table>
+		
+		<h5 id="paragrafoMensagem">Mensagem</h5>
+		
+		<table>
+			<tr>
+				<th>Nome:</th>
+				<th>URL:</th>
+				<th>URLVideo:</th>
+				<th>Descricao:</th>
+				<th>Categoria:</th>
+			</tr>
+			<tbody id="corpoTabelaGames"></tbody>
+		</table>
+
+		<script type="text/javascript" src="main_js/main.js"></script>
+		
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
